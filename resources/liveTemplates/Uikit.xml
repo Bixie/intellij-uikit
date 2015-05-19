@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Uikit">
+    <template name="uk-alert:danger"
+              value="&lt;div class=&quot;uk-alert uk-alert-danger&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$"
+              description="Alert (Danger)" toReformat="false">
+        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+</templateSet>

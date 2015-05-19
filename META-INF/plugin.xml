@@ -1,0 +1,43 @@
+<idea-plugin version="2" url="https://github.com/Bixie/intellij-uikit">
+  <id>nl.bixie.intellij.uikit</id>
+  <name>UIkit</name>
+  <version>1.0.0</version>
+  <vendor email="info@bixie.nl" url="http://www.bixie.nl">Bixie</vendor>
+
+  <description><![CDATA[
+      <h2>UIkit live templates / snippets</h2>
+      <br />
+      <p>Check <a href="https://github.com/Bixie/intellij-uikit">Github repository</a> for list of snippets and for contributing</p>
+    ]]></description>
+
+  <change-notes><![CDATA[
+          1.0 Initial release<br />
+    ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="8000"/>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <defaultLiveTemplatesProvider implementation="com.intellij.plugin.uikit.UikitTemplatesProvider"/>
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
