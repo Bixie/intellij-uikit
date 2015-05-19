@@ -1,10 +1,512 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Uikit">
-    <template name="uk-alert:danger"
-              value="&lt;div class=&quot;uk-alert uk-alert-danger&quot;&gt;&#10;&#9;&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/button&gt;&#10;&#9;&lt;strong&gt;$var1$&lt;/strong&gt; $var2$&#10;&lt;/div&gt;$END$"
-              description="Alert (Danger)" toReformat="false">
-        <variable name="var1" expression="&quot;Title!&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="var2" expression="&quot;Alert body ...&quot;" defaultValue="" alwaysStopAt="true"/>
+    <template name="uk-accordion"
+            value="&#60;div class=&quot;$class1$&quot; data-uk-accordion&#62;&#10;    &#60;h3 class=&quot;$class2$&quot;&#62;$content1$&#60;/h3&#62;&#10;    &#60;div class=&quot;$class3$&quot;&#62;&#10;        &#60;p&#62;$content2$&#60;/p&#62;&#10;    &#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-accordion component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-accordion&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-accordion-title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-accordion-content&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-dotnav"
+            value="&#60;ul class=&quot;$class1$&quot;&#62;&#10;    &#60;li class=&quot;$class2$&quot;&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-dotnav component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-dotnav&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-form-file"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;button class=&quot;$class2$&quot;&#62;$content1$&#60;/button&#62;&#10;    &#60;input type=&quot;file&quot;&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-form-file component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-form-file&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-form-password"
+            value="&#60;form class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;&#10;        &#60;input type=&quot;password&quot;&#62;&#10;        &#60;a href=&quot;&quot; class=&quot;$class3$&quot; data-uk-form-password&#62;$content1$&#60;/a&#62;&#10;    &#60;/div&#62;&#10;&#60;/form&#62;&#10;"
+            description="UIkit uk-form-password component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-form&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-form-password&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-form-password-toggle&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-form-select"
+            value="&#60;div class=&quot;$class1$&quot; data-uk-form-select&#62;&#10;    &#60;span&#62;$content1$&#60;/span&#62;&#10;    &#60;select&#62;&#10;        &#60;option value=&quot;&quot;&#62;$content2$&#60;/option&#62;&#10;    &#60;/select&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-form-select component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-form-select&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-nestable"
+            value="&#60;ul class=&quot;$class1$&quot; data-uk-nestable&#62;&#10;    &#60;li&#62;&#10;        &#60;div class=&quot;$class2$&quot;&#62;&#10;            &#60;div class=&quot;$class3$&quot;&#62;$content1$&#60;/div&#62;&#10;            &#60;div data-nestable-action=&quot;toggle&quot;&#62;$content2$&#60;/div&#62;&#10;            &#60;span&#62;$content3$&#60;/span&#62;&#10;        &#60;/div&#62;&#10;    &#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-nestable component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-nestable&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-nestable-item&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-nestable-handle&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-progress"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot; style=&quot;width: 40%;&quot;&#62;$content1$&#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-progress component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-progress&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-progress-bar&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-search"
+            value="&#60;form class=&quot;$class1$&quot; data-uk-search&#62;&#10;    &#60;input class=&quot;$class2$&quot; type=&quot;search&quot; placeholder=&quot;&quot;&#62;&#10;&#60;/form&#62;&#10;"
+            description="UIkit uk-search component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-search&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-search-field&quot;" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-slidenav"
+            value="&#60;a href=&quot;&quot; class=&quot;$class1$&quot;&#62;$content1$&#60;/a&#62;&#10;&#60;a href=&quot;&quot; class=&quot;$class2$&quot;&#62;$content2$&#60;/a&#62;&#10;"
+            description="UIkit uk-slidenav component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-slidenav uk-slidenav-previous&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-slidenav uk-slidenav-next&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-slidenav-position"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;img src=&quot;&quot; alt=&quot;&quot;&#62;&#10;    &#60;a href=&quot;&quot; class=&quot;$class2$&quot;&#62;$content1$&#60;/a&#62;&#10;    &#60;a href=&quot;&quot; class=&quot;$class3$&quot;&#62;$content2$&#60;/a&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-slidenav-position component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-slidenav-position&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-slidenav uk-slidenav-previous&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-slidenav uk-slidenav-next&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-slider"
+            value="&#60;div data-uk-slider&#62;&#10;    &#60;div class=&quot;$class1$&quot;&#62;&#10;        &#60;ul class=&quot;$class2$&quot;&#62;&#10;            &#60;li&#62;$content1$&#60;/li&#62;&#10;            &#60;li&#62;$content2$&#60;/li&#62;&#10;        &#60;/ul&#62;&#10;    &#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-slider component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-slider-container&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-slider&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-slideshow"
+            value="&#60;ul class=&quot;$class1$&quot; data-uk-slideshow&#62;&#10;    &#60;li&#62;&#60;img src=&quot;&quot; width=&quot;&quot; height=&quot;&quot; alt=&quot;&quot;&#62;$content1$&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-slideshow component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-slideshow&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-sortable"
+            value="&#60;ul class=&quot;$class1$&quot; data-uk-sortable&#62;&#10;    &#60;li&#62;$content1$&#60;/li&#62;&#10;    &#60;li&#62;$content2$&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-sortable component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-sortable&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-alert"
+            value="&#60;div class=&quot;$class1$&quot; data-uk-alert&#62;&#10;    &#60;a href=&quot;#&quot; class=&quot;$class2$&quot;&#62;$content1$&#60;/a&#62;&#10;    &#60;p&#62;$content2$&#60;/p&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-alert component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-alert&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-alert-close uk-close&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-article"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;h1 class=&quot;$class2$&quot;&#62;$content1$&#60;/h1&#62;&#10;    &#60;p class=&quot;$class3$&quot;&#62;$content2$&#60;/p&#62;&#10;    &#60;p class=&quot;$class4$&quot;&#62;$content3$&#60;/p&#62;&#10;    &#60;p&#62;$content4$&#60;/p&#62;&#10;    &#60;hr class=&quot;$class5$&quot;&#62;&#10;    &#60;p&#62;$content5$&#60;/p&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-article component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-article&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-article-title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-article-meta&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class4" expression="&quot;uk-article-lead&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class5" expression="&quot;uk-article-divider&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content4" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content5" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-breadcrumb"
+            value="&#60;ul class=&quot;$class1$&quot;&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;    &#60;li&#62;&#60;span&#62;$content2$&#60;/span&#62;&#60;/li&#62;&#10;    &#60;li class=&quot;$class2$&quot;&#62;&#60;span&#62;$content3$&#60;/span&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-breadcrumb component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-breadcrumb&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-button-group"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;button class=&quot;$class2$&quot;&#62;$content1$&#60;/button&#62;&#10;    &#60;button class=&quot;$class3$&quot;&#62;$content2$&#60;/button&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-button-group component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-button-group&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-button-dropdown"
+            value="&#60;div class=&quot;$class1$&quot; data-uk-dropdown&#62;&#10;    &#60;button class=&quot;$class2$&quot;&#62;$content1$&#60;/button&#62;&#10;    &#60;div class=&quot;$class3$&quot;&#62;&#10;        &#60;ul class=&quot;$class4$&quot;&#62;&#10;            &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;        &#60;/ul&#62;&#10;    &#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-button-dropdown component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-button-dropdown&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-dropdown uk-dropdown-small&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class4" expression="&quot;uk-nav uk-nav-dropdown&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-comment"
+            value="&#60;article class=&quot;$class1$&quot;&#62;&#10;    &#60;header class=&quot;$class2$&quot;&#62;&#10;        &#60;img class=&quot;$class3$&quot; src=&quot;avatar.svg&quot; width=&quot;50&quot; height=&quot;50&quot; alt=&quot;&quot;&#62;&#10;        &#60;h4 class=&quot;$class4$&quot;&#62;$content1$&#60;/h4&#62;&#10;        &#60;div class=&quot;$class5$&quot;&#62;$content2$&#60;/div&#62;&#10;    &#60;/header&#62;&#10;    &#60;div class=&quot;$class6$&quot;&#62;&#10;        &#60;p&#62;$content3$&#60;/p&#62;&#10;    &#60;/div&#62;&#10;&#60;/article&#62;&#10;"
+            description="UIkit uk-comment component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-comment&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-comment-header&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-comment-avatar&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class4" expression="&quot;uk-comment-title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class5" expression="&quot;uk-comment-meta&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class6" expression="&quot;uk-comment-body&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-form"
+            value="&#60;form class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;&#10;        &#60;label class=&quot;$class3$&quot; for=&quot;form-input-1&quot;&#62;$content1$&#60;/label&#62;&#10;        &#60;div class=&quot;$class4$&quot;&#62;&#10;            &#60;input type=&quot;text&quot; id=&quot;form-input-1&quot; placeholder=&quot;Text&quot;&#62;&#10;        &#60;/div&#62;&#10;    &#60;/div&#62;&#10;&#60;/form&#62;&#10;"
+            description="UIkit uk-form component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-form&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-form-row&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-form-label&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class4" expression="&quot;uk-form-controls&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-grid"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;    &#60;div class=&quot;$class3$&quot;&#62;$content2$&#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-grid component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-grid&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-grid-divider"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;    &#60;div class=&quot;$class3$&quot;&#62;$content2$&#60;/div&#62;&#10;&#60;/div&#62;&#10;&#60;hr class=&quot;$class4$&quot;&#62;&#10;&#60;div class=&quot;$class5$&quot;&#62;&#10;    &#60;div class=&quot;$class6$&quot;&#62;$content3$&#60;/div&#62;&#10;    &#60;div class=&quot;$class7$&quot;&#62;$content4$&#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-grid-divider component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-grid uk-grid-divider&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class4" expression="&quot;uk-grid-divider&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class5" expression="&quot;uk-grid uk-grid-divider&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class6" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class7" expression="&quot;uk-width-1-2&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content4" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-modal"
+            value="&#60;a href=&quot;#modal&quot; data-uk-modal=&quot;&quot;&#62;$content1$&#60;/a&#62;&#10;&#60;div id=&quot;modal&quot; class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;&#10;        &#60;a href=&quot;&quot; class=&quot;$class3$&quot;&#62;$content2$&#60;/a&#62;&#10;        &#60;p&#62;$content3$&#60;/p&#62;&#10;    &#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-modal component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-modal&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-modal-dialog&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-modal-close uk-close&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-nav"
+            value="&#60;ul class=&quot;$class1$&quot;&#62;&#10;    &#60;li class=&quot;$class2$&quot;&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-nav component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-nav&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-navbar"
+            value="&#60;nav class=&quot;$class1$&quot;&#62;&#10;    &#60;ul class=&quot;$class2$&quot;&#62;&#10;        &#60;li class=&quot;$class3$&quot;&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;        &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;    &#60;/ul&#62;&#10;&#60;/nav&#62;&#10;"
+            description="UIkit uk-navbar component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-navbar&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-navbar-nav&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-offcanvas"
+            value="&#60;a href=&quot;#offcanvas&quot; data-uk-offcanvas&#62;Open&#60;/a&#62;&#10;&#60;div id=&quot;offcanvas&quot; class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-offcanvas component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-offcanvas&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-offcanvas-bar&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-overlay"
+            value="&#60;a class=&quot;$class1$&quot; href=&quot;&quot;&#62;&#10;    &#60;img src=&quot;&quot; alt=&quot;&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;&#60;/a&#62;&#10;"
+            description="UIkit uk-overlay component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-overlay&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-overlay-panel&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-pagination"
+            value="&#60;ul class=&quot;$class1$&quot;&#62;&#10;    &#60;li class=&quot;$class2$&quot;&#62;&#60;span&#62;$content1$&#60;/span&#62;&#60;/li&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-pagination component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-pagination&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-panel"
+            value="&#60;div class=&quot;$class1$&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;    &#60;h3 class=&quot;$class3$&quot;&#62;$content2$&#60;/h3&#62;&#10;    &#60;p&#62;$content3$&#60;/p&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-panel component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-panel&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-panel-badge uk-badge&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class3" expression="&quot;uk-panel-title&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-subnav"
+            value="&#60;ul class=&quot;$class1$&quot;&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-subnav component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-subnav&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-tab"
+            value="&#60;ul class=&quot;$class1$&quot; data-uk-tab&#62;&#10;    &#60;li class=&quot;$class2$&quot;&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-tab component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-tab&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-thumbnail"
+            value="&#60;figure class=&quot;$class1$&quot;&#62;&#10;    &#60;img src=&quot;&quot; alt=&quot;&quot;&#62;&#10;    &#60;figcaption class=&quot;$class2$&quot;&#62;$content1$&#60;/figcaption&#62;&#10;&#60;/figure&#62;&#10;"
+            description="UIkit uk-thumbnail component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-thumbnail&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-thumbnail-caption&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-thumbnav"
+            value="&#60;ul class=&quot;$class1$&quot;&#62;&#10;    &#60;li class=&quot;$class2$&quot;&#62;&#60;a href=&quot;&quot;&#62;$content1$&#60;/a&#62;&#60;/li&#62;&#10;    &#60;li&#62;&#60;a href=&quot;&quot;&#62;$content2$&#60;/a&#62;&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-thumbnav component" toReformat="false">
+        <variable name="class1" expression="&quot;uk-thumbnav&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class2" expression="&quot;uk-active&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
