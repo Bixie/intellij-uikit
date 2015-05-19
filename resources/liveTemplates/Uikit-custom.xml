@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Uikit-custom">
+    <template name="uk-list"
+            value="&#60;ul class=&quot;uk-list&quot;&#62;&#10;    &#60;li&#62;$END$&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            description="UIkit uk-list component" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-button:button"
+            value="&#10;&#60;button type=&quot;$buttontype$&quot; class=&quot;$class1$&quot;&#62;$content1$&#60;/button&#62;$END$&#10;"
+            description="UIkit uk-button button" toReformat="false">
+        <variable name="buttontype" expression="&quot;button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class1" expression="&quot;uk-button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-button:a"
+            value="&#10;&#60;a href=&quot;$href$&quot; class=&quot;$class1$&quot;&#62;$content1$&#60;/a&#62;$END$&#10;"
+            description="UIkit uk-button anchor" toReformat="false">
+        <variable name="href" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="class1" expression="&quot;uk-button&quot;" defaultValue="" alwaysStopAt="true"/>
+        <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+</templateSet>

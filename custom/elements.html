@@ -1,0 +1,70 @@
+<ul class="uk-list">
+    <li>$END$</li>
+</ul>
+====
+{
+    "name" : "uk-list",
+    "description" : "UIkit uk-list component",
+    "toReformat" : "false",
+    "variables" : [],
+    "context" : ["HTML_TEXT", "HTML", "PHP", "GSP", "JSP"]
+}
+****
+<button type="$buttontype$" class="$class1$">$content1$</button>$END$
+====
+{
+    "name" : "uk-button:button",
+    "description" : "UIkit uk-button button",
+    "toReformat" : "false",
+    "variables" : [
+        {
+        "name" : "buttontype",
+        "expression" : "'button'",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "class1",
+        "expression" : "'uk-button'",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "content1",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        }
+    ],
+    "context" : ["HTML_TEXT", "HTML", "PHP", "GSP", "JSP"]
+}
+****
+<a href="$href$" class="$class1$">$content1$</a>$END$
+====
+{
+    "name" : "uk-button:a",
+    "description" : "UIkit uk-button anchor",
+    "toReformat" : "false",
+    "variables" : [
+        {
+        "name" : "href",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "class1",
+        "expression" : "'uk-button'",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "content1",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        }
+    ],
+    "context" : ["HTML_TEXT", "HTML", "PHP", "GSP", "JSP"]
+}
+****

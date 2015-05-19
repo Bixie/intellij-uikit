@@ -12,6 +12,7 @@ public class UikitTemplatesProvider implements DefaultLiveTemplatesProvider {
     public String[] getDefaultLiveTemplateFiles() {
         return new String[]{
             "liveTemplates/Uikit",
+            "liveTemplates/Uikit-custom",
             "liveTemplates/Uikit-icons",
         };
     }

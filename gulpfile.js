@@ -1,4 +1,5 @@
 var pkg = require('./package.json'),
+    path = require('path'),
     gulp = require('gulp'),
     fs = require('fs'),
     tap = require('gulp-tap'),
@@ -7,19 +8,21 @@ var pkg = require('./package.json'),
         tab(3) + 'description="{description}" toReformat="false">',
         '{variables}',
         tab(2) + '<context>',
+        '{context}',
+        tab(2) + '</context>',
+        tab(1) + "</template>"].join("\n"),
+    defaultContext = [
         tab(3) + '<option name="HTML_TEXT" value="true"/>',
         tab(3) + '<option name="HTML" value="true"/>',
         tab(3) + '<option name="PHP" value="true"/>',
         tab(3) + '<option name="GSP" value="true"/>',
-        tab(3) + '<option name="JSP" value="true"/>',
-        tab(2) + '</context>',
-        tab(1) + "</template>"].join("\n"),
+        tab(3) + '<option name="JSP" value="true"/>'].join("\n"),
     xmlTemplate = ['<?xml version="1.0" encoding="UTF-8"?>',
         '<templateSet group="{group}">',
         '{templates}',
         '</templateSet>'].join("\n");
 
-gulp.task('default', ['code-snippets', 'icons'], function (done) {
+gulp.task('default', ['code-snippets', 'icons', 'custom'], function (done) {
     done();
 });
 
@@ -36,6 +39,7 @@ function htmlentities(str) {
     return str.replace(/[\u00A0-\u9999<>\&]/gim, function (i) {
         return '&#' + i.charCodeAt(0) + ';';
     });
+
 }
 
 gulp.task('code-snippets', function (done) {
@@ -91,6 +95,7 @@ gulp.task('code-snippets', function (done) {
             templates.push(template.replace("{name}", name)
                     .replace("{variables}", variablesString)
                     .replace("{description}", description)
+                    .replace("{context}", defaultContext)
                     .replace("{snippet}", function () {
                         return content;
                     }) //prevent replacing $&
@@ -135,6 +140,7 @@ gulp.task('icons', function (done) {
 
             templates.push(template.replace("{name}", name)
                     .replace("{variables}", '')
+                    .replace("{context}", defaultContext)
                     .replace("{description}", description)
                     .replace("{snippet}", function () {
                         return content;
@@ -146,6 +152,58 @@ gulp.task('icons', function (done) {
         }
 
         fs.writeFile('resources/liveTemplates/Uikit-icons.xml', xmlTemplate.replace('{group}', 'Uikit-icons')
+                .replace('{templates}', function () {
+                    return templates.join("\n");
+                })
+        );
+
+    }));
+
+    done();
+
+});
+
+gulp.task('custom', function (done) {
+
+    var templates = [];
+
+    gulp.src("custom/*.html").pipe(tap(function(file) {
+
+        if (path.basename(file.path) === 'empty.html') {
+            return;
+        }
+
+        file.contents.toString().replace(/\*\*\*\*$/,'').split('****').forEach(function (snippet) {
+
+            var variablesString, parts = snippet.split('===='),
+                meta = JSON.parse(parts[1]),
+                name = meta.name,
+                description = meta.description,
+                content = parts[0],
+                context = meta.context.map(function (cntxt) {
+                        return tab(3) + '<option name="' + cntxt + '" value="true"/>';
+                    }).join("\n");
+
+                //make xml safe
+                content = htmlentities(content).replace(/"/g, '&quot;').replace(/\n/g, '&#10;');
+
+                variablesString = meta.variables.map(function (variable) {
+                    return tab(2) + '<variable name="' + variable.name + '" expression="' + variable.expression.replace(/'/g, '&quot;')
+                        + '" defaultValue="' + variable.defaultValue + '" alwaysStopAt="' + variable.alwaysStopAt + '"/>';
+                }).join("\n");
+
+                templates.push(template.replace("{name}", name)
+                        .replace("{variables}", variablesString)
+                        .replace("{context}", context)
+                        .replace("{description}", description)
+                        .replace("{snippet}", function () {
+                            return content;
+                        }) //prevent replacing $&
+                );
+
+        });
+
+        fs.writeFile('resources/liveTemplates/Uikit-custom.xml', xmlTemplate.replace('{group}', 'Uikit-custom')
                 .replace('{templates}', function () {
                     return templates.join("\n");
                 })
