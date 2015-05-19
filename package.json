@@ -1,0 +1,29 @@
+{
+  "name": "intellij-uikit",
+  "title": "PHPstorm UIkit plugin",
+  "description": "This plugin provides autocomplete live templates of the UIkit framework for IntelliJ IDE products.",
+  "version": "",
+  "homepage": "https://github.com/Bixie/intellij-uikit",
+  "author": {
+    "name": "Matthijs Alles",
+    "email": "info@bixie.nl",
+    "url": "http://www.bixie.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bixie/intellij-uikit"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/uikit/uikit/blob/master/LICENSE.md"
+    }
+  ],
+  "devDependencies": {
+    "bower": "1.2.6",
+    "gulp": "^3.8.8",
+    "gulp-tap": "latest",
+    "mkdirp": "latest"
+  },
+  "keywords": []
+}

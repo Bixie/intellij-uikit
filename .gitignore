@@ -1,3 +1,5 @@
 /.idea
 /out
+/node_modules
+/bower_components
 UIkit.jar

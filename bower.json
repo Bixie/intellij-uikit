@@ -1,0 +1,23 @@
+{
+  "name": "UIkit Plugin PHPstorm",
+  "version": "1.1",
+  "homepage": "https://github.com/Bixie/intellij-uikit",
+  "authors": [
+    "malles <matthijs@bixie.nl>"
+  ],
+  "description": "Plugin for PHPstorm for live templates UIkit",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "~2.20.3"
+  }
+}
