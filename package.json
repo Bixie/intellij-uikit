@@ -22,8 +22,7 @@
   "devDependencies": {
     "bower": "1.2.6",
     "gulp": "^3.8.8",
-    "gulp-tap": "latest",
-    "mkdirp": "latest"
+    "gulp-tap": "latest"
   },
   "keywords": []
 }

@@ -1,11 +1,25 @@
 var pkg         = require('./package.json'),
     gulp        = require('gulp'),
     fs          = require('fs'),
-    mkdirp      = require('mkdirp'),
-    tap         = require('gulp-tap');
+    tap         = require('gulp-tap'),
+    template    = [tab(1) + '<template name="{name}"',
+         tab(3) + 'value="{snippet}"',
+         tab(3) + 'description="{description}" toReformat="false">',
+         '{variables}',
+         tab(2) + '<context>',
+         tab(3) + '<option name="HTML_TEXT" value="true"/>',
+         tab(3) + '<option name="HTML" value="true"/>',
+         tab(3) + '<option name="PHP" value="true"/>',
+         tab(3) + '<option name="GSP" value="true"/>',
+         tab(3) + '<option name="JSP" value="true"/>',
+         tab(2) + '</context>',
+         tab(1) + "</template>"].join("\n"),
+    xmlTemplate = ['<?xml version="1.0" encoding="UTF-8"?>',
+        '<templateSet group="{group}">',
+        '{templates}',
+        '</templateSet>'].join("\n");
 
-gulp.task('default', ['code-snippets'], function(done) {
-    console.log('done');
+gulp.task('default', ['code-snippets', 'icons'], function(done) {
     done();
 });
 
@@ -26,25 +40,7 @@ function htmlentities (str) {
 
 gulp.task('code-snippets',  function(done) {
 
-    var fileTemplate = ['<?xml version="1.0" encoding="UTF-8"?>',
-            '<templateSet group="Uikit">',
-            '{templates}',
-            '</templateSet>'].join("\n"),
-        template = [tab(1) + '<template name="{name}"',
-            tab(3) + 'value="{snippet}"',
-            tab(3) + 'description="{description}" toReformat="false">',
-            '{variables}',
-            tab(2) + '<context>',
-            tab(3) + '<option name="HTML_TEXT" value="true"/>',
-            tab(3) + '<option name="HTML" value="true"/>',
-            tab(3) + '<option name="PHP" value="true"/>',
-            tab(3) + '<option name="GSP" value="true"/>',
-            tab(3) + '<option name="JSP" value="true"/>',
-            tab(2) + '</context>',
-            tab(1) + "</template>"].join("\n"),
-        templates = [];
-
-    mkdirp.sync("dist/sublime/snippets");
+    var templates = [];
 
     gulp.src("bower_components/uikit/**/*.less").pipe(tap(function(file) {
 
@@ -102,8 +98,52 @@ gulp.task('code-snippets',  function(done) {
              regex.lastIndex = match.index + 1;
         }
 
-        fs.writeFile('resources/liveTemplates/Uikit.xml', fileTemplate.replace('{templates}', function () {return templates.join("\n"); }));
+        fs.writeFile('resources/liveTemplates/Uikit.xml', xmlTemplate.replace('{group}', 'Uikit')
+                .replace('{templates}', function () {
+                    return templates.join("\n");
+                })
+            );
+    }));
 
+    done();
+
+});
+
+gulp.task('icons',  function(done) {
+
+    var templates = [];
+
+    gulp.src("bower_components/uikit/less/core/icon.less").pipe(tap(function(file) {
+
+        var less = file.contents.toString(),
+            regex = /uk-icon-(.+):before/g,
+            match = null,
+            name, content, description, snippet, variablesString, cl, co;
+
+        while (match = regex.exec(less)) {
+
+            name        = 'uk-icon-' + match[1].trim();
+            content     = '<i class="' + name + '"></i>';
+            description = ["UIkit", match[1].trim(), "icon"].join(" ");
+
+            //make xml safe
+            content = htmlentities(content).replace(/"/g, '&quot;').replace(/\n/g, '&#10;');
+
+            templates.push(template.replace("{name}", name)
+                               .replace("{variables}", '')
+                             .replace("{description}", description)
+                              .replace("{snippet}", function () {return content; }) //prevent replacing $&
+                 );
+
+             // move to next match in loop
+             regex.lastIndex = match.index + 1;
+        }
+
+        fs.writeFile('resources/liveTemplates/Uikit-icons.xml', xmlTemplate.replace('{group}', 'Uikit-icons')
+                .replace('{templates}', function () {
+                    return templates.join("\n");
+                })
+            );
     }));
 
     done();
