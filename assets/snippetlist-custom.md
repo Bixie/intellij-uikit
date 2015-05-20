@@ -9,4 +9,4 @@ uk-list | UIkit uk-list component
 uk-button:button | UIkit uk-button button
 uk-button:a | UIkit uk-button anchor
 
-[<<< Back to README](https://github.com/Bixie/intellij-uikit)
+[<<< Back to README](https://github.com/Bixie/intellij-uikit#list-of-templates)

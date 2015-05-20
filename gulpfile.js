@@ -114,7 +114,7 @@ gulp.task('code-snippets', function (done) {
 
         fs.writeFile('assets/snippetlist-core.md',
                 ['# UIkit core snippets', '', 'Name | Description', '-----|-----',
-                    docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + ')'].join("\n")
+                    docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + '#list-of-templates)'].join("\n")
         );
 
     }));
@@ -166,7 +166,7 @@ gulp.task('icons', function (done) {
 
         fs.writeFile('assets/snippetlist-icons.md',
                 ['# UIkit icons snippets', '', 'Name | Description', '-----|-----', docLines.join("\n"),
-                    docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + ')'].join("\n")
+                    docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + '#list-of-templates)'].join("\n")
         );
 
     }));
@@ -224,7 +224,7 @@ gulp.task('custom', function (done) {
 
         fs.writeFile('assets/snippetlist-custom.md',
                 ['# UIkit custom snippets', '', 'Name | Description', '-----|-----', docLines.join("\n"),
-                        docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + ')'].join("\n")
+                        docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + '#list-of-templates)'].join("\n")
         );
 
     }));

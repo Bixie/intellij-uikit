@@ -1195,4 +1195,4 @@ uk-icon-train | UIkit train icon
 uk-icon-subway | UIkit subway icon
 uk-icon-medium-logo | UIkit medium-logo icon
 
-[<<< Back to README](https://github.com/Bixie/intellij-uikit)
+[<<< Back to README](https://github.com/Bixie/intellij-uikit#list-of-templates)

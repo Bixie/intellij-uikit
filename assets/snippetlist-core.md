@@ -36,4 +36,4 @@ uk-tab | UIkit uk-tab component
 uk-thumbnail | UIkit uk-thumbnail component
 uk-thumbnav | UIkit uk-thumbnav component
 
-[<<< Back to README](https://github.com/Bixie/intellij-uikit)
+[<<< Back to README](https://github.com/Bixie/intellij-uikit#list-of-templates)
