@@ -21,9 +21,9 @@ To install in PHPstorm or simular IntelliJ IDE:
 
 ## List of templates
 
-The complete list of snippets can be found in seperate files.
-[Core snippets](/assets/snippetlist-core.md)
-[Icons snippets](/assets/snippetlist-icons.md)
+The complete list of snippets can be found in seperate files.  
+[Core snippets](/assets/snippetlist-core.md)  
+[Icons snippets](/assets/snippetlist-icons.md)  
 [Custom snippets](/assets/snippetlist-custom.md)
 
 ## Developers
