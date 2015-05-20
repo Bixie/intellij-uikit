@@ -12,7 +12,12 @@ To install in PHPstorm or simular IntelliJ IDE:
 * Click `Browse repositories...`
 * Search for `UIkit`
 * Install and restart
+
+![Install plugin](/assets/install_plugin.png)
+
 * Use `Ctrl-J` in PHP storm to envoke the templates
+
+![Use template](/assets/use_template.png)
 
 ##Developers
 
