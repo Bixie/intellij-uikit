@@ -26,9 +26,15 @@ The complete list of snippets can be found in seperate files.
 [Icons snippets](/assets/snippetlist-icons.md)  
 [Custom snippets](/assets/snippetlist-custom.md)
 
+## Contributing
+
+You can contribute by creating your own custom snippets. Add a file to the `/custom` folder according to the format of 
+[`/custom/empty.html`](https://github.com/Bixie/intellij-uikit/blob/master/custom/empty.html). You can put multiple snippets in
+one file.
+
 ## Developers
 
-To build the plugins jar-file, you need the [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) and the 
+To build the plugins installable `UIkit.jar` file, you need the [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) and the 
 source of it. See (http://www.jetbrains.org/display/IJOS/Writing+Plug-ins) for setting up the IDE and SDKs.
 Then clone or copy this repository to your local folder and use NPM and Bower to set the project up.
 
@@ -38,7 +44,7 @@ bower install
 gulp
 ```
 
-The Gulp task scans the UIkit Less files and extracts the examples. They are compiled in the `resources/liveTemplates/Uikit.xml` file.
+The Gulp task scans the UIkit Less files and extracts the examples. They are compiled to the `resources/liveTemplates/Uikit*.xml` files and snippetlists.
 Then use the `Prepare Plugin Module 'UIkit' For Deployment` in the `Build` menu of IntelliJ IDEA to prepare the `UIkit.jar` file.
 
 ### License
