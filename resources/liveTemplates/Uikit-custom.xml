@@ -40,4 +40,31 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
+    <template name="uk-slideshow-slidenav"
+            value="&#60;div data-uk-slideshow=&quot;&quot;&#62;&#10;    &#60;div class=&quot;uk-slidenav-position&quot;&#62;&#10;        &#60;ul class=&quot;uk-slideshow&quot;&#62;&#10;            &#60;li&#62;&#60;img src=&quot;$imgsrc$&quot; alt=&quot;$alt$&quot;&#62;&#60;/li&#62;&#10;        &#60;/ul&#62;&#10;        &#60;ul&#62;&#10;            &#60;a href=&quot;&quot; class=&quot;uk-slidenav uk-slidenav-contrast uk-slidenav-previous&quot; data-uk-slideshow-item=&quot;previous&quot;&#62;&#60;/a&#62;&#10;            &#60;a href=&quot;&quot; class=&quot;uk-slidenav uk-slidenav-contrast uk-slidenav-next&quot; data-uk-slideshow-item=&quot;next&quot;&#62;&#60;/a&#62;&#10;        &#60;/ul&#62;&#10;    &#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit uk-slideshow with slidenav" toReformat="false">
+        <variable name="$imgsrc$" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="$alt$" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-slideshow-slider"
+            value="&#10;&#60;div data-uk-slideshow=&quot;&quot;&#62;&#10;    &#60;div class=&quot;uk-slidenav-position&quot; data-uk-slider=&quot;{center:true}&quot;&#62;&#10;        &#60;div class=&quot;uk-slider-container&quot;&#62;&#10;            &#60;ul class=&quot;uk-slider uk-grid-width-medium-1-4&quot;&#62;&#10;                &#60;li data-uk-slideshow-item=&quot;0&quot;&#62;&#60;img src=&quot;$thumbsrc$&quot; alt=&quot;$alt$&quot;&#62;&#60;/li&#62;&#10;            &#60;/ul&#62;&#10;            &#60;a href=&quot;&quot; class=&quot;uk-slidenav uk-slidenav-contrast uk-slidenav-previous&quot; data-uk-slider-item=&quot;previous&quot;&#62;&#60;/a&#62;&#10;            &#60;a href=&quot;&quot; class=&quot;uk-slidenav uk-slidenav-contrast uk-slidenav-next&quot; data-uk-slider-item=&quot;next&quot;&#62;&#60;/a&#62;&#10;        &#60;/div&#62;&#10;    &#60;/div&#62;&#10;    &#60;div class=&quot;uk-slidenav-position&quot;&#62;&#10;        &#60;ul class=&quot;uk-slideshow&quot;&#62;&#10;            &#60;li&#62;&#60;img src=&quot;$imgsrc$&quot; alt=&quot;$alt$&quot;&#62;&#60;/li&#62;&#10;        &#60;/ul&#62;&#10;        &#60;ul&#62;&#10;            &#60;a href=&quot;&quot; class=&quot;uk-slidenav uk-slidenav-contrast uk-slidenav-previous&quot; data-uk-slideshow-item=&quot;previous&quot;&#62;&#60;/a&#62;&#10;            &#60;a href=&quot;&quot; class=&quot;uk-slidenav uk-slidenav-contrast uk-slidenav-next&quot; data-uk-slideshow-item=&quot;next&quot;&#62;&#60;/a&#62;&#10;        &#60;/ul&#62;&#10;    &#60;/div&#62;&#10;&#60;/div&#62;&#10;"
+            description="UIkit Slideshow and slider components" toReformat="false">
+        <variable name="$thumbsrc$" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="$alt$" expression="" defaultValue="" alwaysStopAt="true"/>
+        <variable name="$imgsrc$" expression="" defaultValue="" alwaysStopAt="true"/>
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
 </templateSet>
