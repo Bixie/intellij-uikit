@@ -44,7 +44,7 @@ function htmlentities(str) {
 
 gulp.task('code-snippets', function (done) {
 
-    var templates = [];
+    var templates = [], docLines = [];
 
     gulp.src("bower_components/uikit/**/*.less").pipe(tap(function (file) {
 
@@ -100,6 +100,7 @@ gulp.task('code-snippets', function (done) {
                         return content;
                     }) //prevent replacing $&
             );
+            docLines.push([name, description].join(' | '));
 
             // move to next match in loop
             regex.lastIndex = match.index + 1;
@@ -111,6 +112,11 @@ gulp.task('code-snippets', function (done) {
                 })
         );
 
+        fs.writeFile('assets/snippetlist-core.md',
+                ['# UIkit core snippets', '', 'Name | Description', '-----|-----',
+                    docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + ')'].join("\n")
+        );
+
     }));
 
 
@@ -120,7 +126,7 @@ gulp.task('code-snippets', function (done) {
 
 gulp.task('icons', function (done) {
 
-    var templates = [];
+    var templates = [], docLines = [];
 
     gulp.src("bower_components/uikit/less/core/icon.less").pipe(tap(function(file) {
 
@@ -146,6 +152,7 @@ gulp.task('icons', function (done) {
                         return content;
                     }) //prevent replacing $&
             );
+            docLines.push([name, description].join(' | '));
 
             // move to next match in loop
             regex.lastIndex = match.index + 1;
@@ -157,6 +164,11 @@ gulp.task('icons', function (done) {
                 })
         );
 
+        fs.writeFile('assets/snippetlist-icons.md',
+                ['# UIkit icons snippets', '', 'Name | Description', '-----|-----', docLines.join("\n"),
+                    docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + ')'].join("\n")
+        );
+
     }));
 
     done();
@@ -165,7 +177,7 @@ gulp.task('icons', function (done) {
 
 gulp.task('custom', function (done) {
 
-    var templates = [];
+    var templates = [], docLines = [];
 
     gulp.src("custom/*.html").pipe(tap(function(file) {
 
@@ -200,6 +212,7 @@ gulp.task('custom', function (done) {
                             return content;
                         }) //prevent replacing $&
                 );
+                docLines.push([name, description].join(' | '));
 
         });
 
@@ -207,6 +220,11 @@ gulp.task('custom', function (done) {
                 .replace('{templates}', function () {
                     return templates.join("\n");
                 })
+        );
+
+        fs.writeFile('assets/snippetlist-custom.md',
+                ['# UIkit custom snippets', '', 'Name | Description', '-----|-----', docLines.join("\n"),
+                        docLines.join("\n"), '', '[<<< Back to README](' + pkg.homepage + ')'].join("\n")
         );
 
     }));
