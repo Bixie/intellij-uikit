@@ -1,0 +1,81 @@
+<div data-uk-slideshow="">
+    <div class="uk-slidenav-position">
+        <ul class="uk-slideshow">
+            <li><img src="$imgsrc$" alt="$alt$"></li>
+        </ul>
+        <ul>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+        </ul>
+    </div>
+</div>
+====
+{
+    "name" : "uk-slideshow-slidenav",
+    "description" : "UIkit uk-slideshow with slidenav",
+    "toReformat" : "false",
+    "variables" : [
+        {
+        "name" : "$imgsrc$",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "$alt$",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        }
+    ],
+    "context" : ["HTML_TEXT", "HTML", "PHP", "GSP", "JSP"]
+}
+****
+<div data-uk-slideshow="">
+    <div class="uk-slidenav-position" data-uk-slider="{center:true}">
+        <div class="uk-slider-container">
+            <ul class="uk-slider uk-grid-width-medium-1-4">
+                <li data-uk-slideshow-item="0"><img src="$thumbsrc$" alt="$alt$"></li>
+            </ul>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slider-item="previous"></a>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slider-item="next"></a>
+        </div>
+    </div>
+    <div class="uk-slidenav-position">
+        <ul class="uk-slideshow">
+            <li><img src="$imgsrc$" alt="$alt$"></li>
+        </ul>
+        <ul>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+            <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+        </ul>
+    </div>
+</div>
+====
+{
+    "name" : "uk-slideshow-slider",
+    "description" : "UIkit Slideshow and slider components",
+    "toReformat" : "false",
+    "variables" : [
+        {
+        "name" : "$thumbsrc$",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "$alt$",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        },
+        {
+        "name" : "$imgsrc$",
+        "expression" : "",
+        "defaultValue" : "",
+        "alwaysStopAt" : "true"
+        }
+    ],
+    "context" : ["HTML_TEXT", "HTML", "PHP", "GSP", "JSP"]
+}
+****
