@@ -16,7 +16,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/uikit/uikit/blob/master/LICENSE.md"
+      "url": "http://opensource.org/licenses/MIT"
     }
   ],
   "devDependencies": {
