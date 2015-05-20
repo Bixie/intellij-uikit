@@ -19,6 +19,11 @@ To install in PHPstorm or simular IntelliJ IDE:
 
 ![Use template](/assets/use_template.png)
 
+## Rate the plugin
+
+If you're happy using this plugin, please tell the world at [JetBrains Plugin Repository](https://plugins.jetbrains.com/plugin/7791) 
+and comment and rate!
+
 ## List of templates
 
 The complete list of snippets can be found in seperate files.  
