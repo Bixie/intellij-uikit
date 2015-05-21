@@ -15,7 +15,7 @@ To install in PHPstorm or simular IntelliJ IDE:
 
 ![Install plugin](/assets/install_plugin.png)
 
-* Use `Ctrl-J` in PHP storm to envoke the templates
+* Use `Ctrl-J` in PHP storm to envoke the templates. Make sure you are in a html/html_text/php/gsp/jsp code context.
 
 ![Use template](/assets/use_template.png)
 
@@ -38,6 +38,8 @@ You can contribute by creating your own custom snippets. Add a file to the `/cus
 one file.
 
 ## Developers
+
+*The following information explains how this plugin is maintained. Users do not need to care about those steps.*
 
 To build the plugins installable `UIkit.jar` file, you need the [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/) and the 
 source of it. See (http://www.jetbrains.org/display/IJOS/Writing+Plug-ins) for setting up the IDE and SDKs.
