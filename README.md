@@ -17,7 +17,7 @@ To install in PHPstorm or simular IntelliJ IDE:
 
 * Use `Ctrl-J` in PHP storm to envoke the templates. Make sure you are in a html/html_text/php/gsp/jsp code context.
 
-![Use template](/assets/use_template.png)
+![Use template](/assets/uikit-autocomplete.gif)
 
 ## Rate the plugin
 
