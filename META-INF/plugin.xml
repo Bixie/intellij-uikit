@@ -1,7 +1,7 @@
 <idea-plugin version="2" url="https://github.com/Bixie/intellij-uikit">
   <id>nl.bixie.intellij.uikit</id>
   <name>UIkit</name>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <vendor email="info@bixie.nl" url="http://www.bixie.nl">Bixie</vendor>
 
   <description><![CDATA[
@@ -11,8 +11,8 @@
     ]]></description>
 
   <change-notes><![CDATA[
-          1.2 Added slideshows<br />
-              UIkit 2.21.0<br />
+          1.1.1 Added slideshows<br />
+                UIkit 2.21.0<br />
           1.1 Added icons and custom templates<br />
           1.0 Initial release<br />
     ]]>
