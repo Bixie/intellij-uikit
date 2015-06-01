@@ -1,41 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Uikit-icons">
-    <template name="uk-icon-small"
-            value="&#60;i class=&quot;uk-icon-small&quot;&#62;&#60;/i&#62;"
-            description="UIkit small icon" toReformat="false">
-
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-        </context>
-    </template>
-    <template name="uk-icon-medium"
-            value="&#60;i class=&quot;uk-icon-medium&quot;&#62;&#60;/i&#62;"
-            description="UIkit medium icon" toReformat="false">
-
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-        </context>
-    </template>
-    <template name="uk-icon-large"
-            value="&#60;i class=&quot;uk-icon-large&quot;&#62;&#60;/i&#62;"
-            description="UIkit large icon" toReformat="false">
-
-        <context>
-            <option name="HTML_TEXT" value="true"/>
-            <option name="HTML" value="true"/>
-            <option name="PHP" value="true"/>
-            <option name="GSP" value="true"/>
-            <option name="JSP" value="true"/>
-        </context>
-    </template>
     <template name="uk-icon-glass"
             value="&#60;i class=&quot;uk-icon-glass&quot;&#62;&#60;/i&#62;"
             description="UIkit glass icon" toReformat="false">

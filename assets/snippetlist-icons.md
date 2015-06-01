@@ -2,9 +2,6 @@
 
 Name | Description
 -----|-----
-uk-icon-small | UIkit small icon
-uk-icon-medium | UIkit medium icon
-uk-icon-large | UIkit large icon
 uk-icon-glass | UIkit glass icon
 uk-icon-music | UIkit music icon
 uk-icon-search | UIkit search icon
@@ -598,9 +595,6 @@ uk-icon-viacoin | UIkit viacoin icon
 uk-icon-train | UIkit train icon
 uk-icon-subway | UIkit subway icon
 uk-icon-medium-logo | UIkit medium-logo icon
-uk-icon-small | UIkit small icon
-uk-icon-medium | UIkit medium icon
-uk-icon-large | UIkit large icon
 uk-icon-glass | UIkit glass icon
 uk-icon-music | UIkit music icon
 uk-icon-search | UIkit search icon

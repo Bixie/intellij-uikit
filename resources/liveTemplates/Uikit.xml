@@ -75,14 +75,11 @@
         </context>
     </template>
     <template name="uk-nestable"
-            value="&#60;ul class=&quot;$class1$&quot; data-uk-nestable&#62;&#10;    &#60;li&#62;&#10;        &#60;div class=&quot;$class2$&quot;&#62;&#10;            &#60;div class=&quot;$class3$&quot;&#62;$content1$&#60;/div&#62;&#10;            &#60;div data-nestable-action=&quot;toggle&quot;&#62;$content2$&#60;/div&#62;&#10;            &#60;span&#62;$content3$&#60;/span&#62;&#10;        &#60;/div&#62;&#10;    &#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
+            value="&#60;ul class=&quot;$class1$&quot; data-uk-nestable&#62;&#10;    &#60;li&#62;$content1$&#60;/li&#62;&#10;    &#60;li&#62;$content2$&#60;/li&#62;&#10;&#60;/ul&#62;&#10;"
             description="UIkit uk-nestable component" toReformat="false">
         <variable name="class1" expression="&quot;uk-nestable&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="class2" expression="&quot;uk-nestable-item&quot;" defaultValue="" alwaysStopAt="true"/>
-        <variable name="class3" expression="&quot;uk-nestable-handle&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="content1" expression="" defaultValue="" alwaysStopAt="true"/>
         <variable name="content2" expression="" defaultValue="" alwaysStopAt="true"/>
-        <variable name="content3" expression="" defaultValue="" alwaysStopAt="true"/>
         <context>
             <option name="HTML_TEXT" value="true"/>
             <option name="HTML" value="true"/>
@@ -413,7 +410,7 @@
         </context>
     </template>
     <template name="uk-overlay"
-            value="&#60;a class=&quot;$class1$&quot; href=&quot;&quot;&#62;&#10;    &#60;img src=&quot;&quot; alt=&quot;&quot;&#62;&#10;    &#60;div class=&quot;$class2$&quot;&#62;$content1$&#60;/div&#62;&#10;&#60;/a&#62;&#10;"
+            value="&#60;figure class=&quot;$class1$&quot; href=&quot;&quot;&#62;&#10;    &#60;img src=&quot;&quot; alt=&quot;&quot;&#62;&#10;    &#60;figcaption class=&quot;$class2$&quot;&#62;$content1$&#60;/figcaption&#62;&#10;&#60;/figure&#62;&#10;"
             description="UIkit uk-overlay component" toReformat="false">
         <variable name="class1" expression="&quot;uk-overlay&quot;" defaultValue="" alwaysStopAt="true"/>
         <variable name="class2" expression="&quot;uk-overlay-panel&quot;" defaultValue="" alwaysStopAt="true"/>
