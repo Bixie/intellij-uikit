@@ -7116,4 +7116,952 @@
             <option name="JSP" value="true"/>
         </context>
     </template>
+    <template name="uk-icon-500px"
+            value="&#60;i class=&quot;uk-icon-500px&quot;&#62;&#60;/i&#62;"
+            description="UIkit 500px icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-amazon"
+            value="&#60;i class=&quot;uk-icon-amazon&quot;&#62;&#60;/i&#62;"
+            description="UIkit amazon icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-balance-scale"
+            value="&#60;i class=&quot;uk-icon-balance-scale&quot;&#62;&#60;/i&#62;"
+            description="UIkit balance-scale icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-empty"
+            value="&#60;i class=&quot;uk-icon-battery-empty&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-empty icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-0"
+            value="&#60;i class=&quot;uk-icon-battery-0&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-0 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-quarter"
+            value="&#60;i class=&quot;uk-icon-battery-quarter&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-quarter icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-1"
+            value="&#60;i class=&quot;uk-icon-battery-1&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-1 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-half"
+            value="&#60;i class=&quot;uk-icon-battery-half&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-half icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-2"
+            value="&#60;i class=&quot;uk-icon-battery-2&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-2 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-three-quarters"
+            value="&#60;i class=&quot;uk-icon-battery-three-quarters&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-three-quarters icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-3"
+            value="&#60;i class=&quot;uk-icon-battery-3&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-3 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-full"
+            value="&#60;i class=&quot;uk-icon-battery-full&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-full icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-battery-4"
+            value="&#60;i class=&quot;uk-icon-battery-4&quot;&#62;&#60;/i&#62;"
+            description="UIkit battery-4 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-black-tie"
+            value="&#60;i class=&quot;uk-icon-black-tie&quot;&#62;&#60;/i&#62;"
+            description="UIkit black-tie icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-calendar-check-o"
+            value="&#60;i class=&quot;uk-icon-calendar-check-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit calendar-check-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-calendar-minus-o"
+            value="&#60;i class=&quot;uk-icon-calendar-minus-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit calendar-minus-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-calendar-plus-o"
+            value="&#60;i class=&quot;uk-icon-calendar-plus-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit calendar-plus-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-calendar-times-o"
+            value="&#60;i class=&quot;uk-icon-calendar-times-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit calendar-times-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-cc-diners-club"
+            value="&#60;i class=&quot;uk-icon-cc-diners-club&quot;&#62;&#60;/i&#62;"
+            description="UIkit cc-diners-club icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-cc-jcb"
+            value="&#60;i class=&quot;uk-icon-cc-jcb&quot;&#62;&#60;/i&#62;"
+            description="UIkit cc-jcb icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-chrome"
+            value="&#60;i class=&quot;uk-icon-chrome&quot;&#62;&#60;/i&#62;"
+            description="UIkit chrome icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-clone"
+            value="&#60;i class=&quot;uk-icon-clone&quot;&#62;&#60;/i&#62;"
+            description="UIkit clone icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-commenting"
+            value="&#60;i class=&quot;uk-icon-commenting&quot;&#62;&#60;/i&#62;"
+            description="UIkit commenting icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-commenting-o"
+            value="&#60;i class=&quot;uk-icon-commenting-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit commenting-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-contao"
+            value="&#60;i class=&quot;uk-icon-contao&quot;&#62;&#60;/i&#62;"
+            description="UIkit contao icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-creative-commons"
+            value="&#60;i class=&quot;uk-icon-creative-commons&quot;&#62;&#60;/i&#62;"
+            description="UIkit creative-commons icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-expeditedssl"
+            value="&#60;i class=&quot;uk-icon-expeditedssl&quot;&#62;&#60;/i&#62;"
+            description="UIkit expeditedssl icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-firefox"
+            value="&#60;i class=&quot;uk-icon-firefox&quot;&#62;&#60;/i&#62;"
+            description="UIkit firefox icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-fonticons"
+            value="&#60;i class=&quot;uk-icon-fonticons&quot;&#62;&#60;/i&#62;"
+            description="UIkit fonticons icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-get-pocket"
+            value="&#60;i class=&quot;uk-icon-get-pocket&quot;&#62;&#60;/i&#62;"
+            description="UIkit get-pocket icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-gg"
+            value="&#60;i class=&quot;uk-icon-gg&quot;&#62;&#60;/i&#62;"
+            description="UIkit gg icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-gg-circle"
+            value="&#60;i class=&quot;uk-icon-gg-circle&quot;&#62;&#60;/i&#62;"
+            description="UIkit gg-circle icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-lizard-o"
+            value="&#60;i class=&quot;uk-icon-hand-lizard-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-lizard-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-stop-o"
+            value="&#60;i class=&quot;uk-icon-hand-stop-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-stop-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-paper-o"
+            value="&#60;i class=&quot;uk-icon-hand-paper-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-paper-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-peace-o"
+            value="&#60;i class=&quot;uk-icon-hand-peace-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-peace-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-pointer-o"
+            value="&#60;i class=&quot;uk-icon-hand-pointer-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-pointer-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-grab-o"
+            value="&#60;i class=&quot;uk-icon-hand-grab-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-grab-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-rock-o"
+            value="&#60;i class=&quot;uk-icon-hand-rock-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-rock-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-scissors-o"
+            value="&#60;i class=&quot;uk-icon-hand-scissors-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-scissors-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hand-spock-o"
+            value="&#60;i class=&quot;uk-icon-hand-spock-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hand-spock-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass"
+            value="&#60;i class=&quot;uk-icon-hourglass&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-o"
+            value="&#60;i class=&quot;uk-icon-hourglass-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-1"
+            value="&#60;i class=&quot;uk-icon-hourglass-1&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-1 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-start"
+            value="&#60;i class=&quot;uk-icon-hourglass-start&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-start icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-2"
+            value="&#60;i class=&quot;uk-icon-hourglass-2&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-2 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-half"
+            value="&#60;i class=&quot;uk-icon-hourglass-half&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-half icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-3"
+            value="&#60;i class=&quot;uk-icon-hourglass-3&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-3 icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-hourglass-end"
+            value="&#60;i class=&quot;uk-icon-hourglass-end&quot;&#62;&#60;/i&#62;"
+            description="UIkit hourglass-end icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-houzz"
+            value="&#60;i class=&quot;uk-icon-houzz&quot;&#62;&#60;/i&#62;"
+            description="UIkit houzz icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-i-cursor"
+            value="&#60;i class=&quot;uk-icon-i-cursor&quot;&#62;&#60;/i&#62;"
+            description="UIkit i-cursor icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-industry"
+            value="&#60;i class=&quot;uk-icon-industry&quot;&#62;&#60;/i&#62;"
+            description="UIkit industry icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-internet-explorer"
+            value="&#60;i class=&quot;uk-icon-internet-explorer&quot;&#62;&#60;/i&#62;"
+            description="UIkit internet-explorer icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-map"
+            value="&#60;i class=&quot;uk-icon-map&quot;&#62;&#60;/i&#62;"
+            description="UIkit map icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-map-o"
+            value="&#60;i class=&quot;uk-icon-map-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit map-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-map-pin"
+            value="&#60;i class=&quot;uk-icon-map-pin&quot;&#62;&#60;/i&#62;"
+            description="UIkit map-pin icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-map-signs"
+            value="&#60;i class=&quot;uk-icon-map-signs&quot;&#62;&#60;/i&#62;"
+            description="UIkit map-signs icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-mouse-pointer"
+            value="&#60;i class=&quot;uk-icon-mouse-pointer&quot;&#62;&#60;/i&#62;"
+            description="UIkit mouse-pointer icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-object-group"
+            value="&#60;i class=&quot;uk-icon-object-group&quot;&#62;&#60;/i&#62;"
+            description="UIkit object-group icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-object-ungroup"
+            value="&#60;i class=&quot;uk-icon-object-ungroup&quot;&#62;&#60;/i&#62;"
+            description="UIkit object-ungroup icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-odnoklassniki"
+            value="&#60;i class=&quot;uk-icon-odnoklassniki&quot;&#62;&#60;/i&#62;"
+            description="UIkit odnoklassniki icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-odnoklassniki-square"
+            value="&#60;i class=&quot;uk-icon-odnoklassniki-square&quot;&#62;&#60;/i&#62;"
+            description="UIkit odnoklassniki-square icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-opencart"
+            value="&#60;i class=&quot;uk-icon-opencart&quot;&#62;&#60;/i&#62;"
+            description="UIkit opencart icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-opera"
+            value="&#60;i class=&quot;uk-icon-opera&quot;&#62;&#60;/i&#62;"
+            description="UIkit opera icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-optin-monster"
+            value="&#60;i class=&quot;uk-icon-optin-monster&quot;&#62;&#60;/i&#62;"
+            description="UIkit optin-monster icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-registered"
+            value="&#60;i class=&quot;uk-icon-registered&quot;&#62;&#60;/i&#62;"
+            description="UIkit registered icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-safari"
+            value="&#60;i class=&quot;uk-icon-safari&quot;&#62;&#60;/i&#62;"
+            description="UIkit safari icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-sticky-note"
+            value="&#60;i class=&quot;uk-icon-sticky-note&quot;&#62;&#60;/i&#62;"
+            description="UIkit sticky-note icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-sticky-note-o"
+            value="&#60;i class=&quot;uk-icon-sticky-note-o&quot;&#62;&#60;/i&#62;"
+            description="UIkit sticky-note-o icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-tv"
+            value="&#60;i class=&quot;uk-icon-tv&quot;&#62;&#60;/i&#62;"
+            description="UIkit tv icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-television"
+            value="&#60;i class=&quot;uk-icon-television&quot;&#62;&#60;/i&#62;"
+            description="UIkit television icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-trademark"
+            value="&#60;i class=&quot;uk-icon-trademark&quot;&#62;&#60;/i&#62;"
+            description="UIkit trademark icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-tripadvisor"
+            value="&#60;i class=&quot;uk-icon-tripadvisor&quot;&#62;&#60;/i&#62;"
+            description="UIkit tripadvisor icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-vimeo"
+            value="&#60;i class=&quot;uk-icon-vimeo&quot;&#62;&#60;/i&#62;"
+            description="UIkit vimeo icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-wikipedia-w"
+            value="&#60;i class=&quot;uk-icon-wikipedia-w&quot;&#62;&#60;/i&#62;"
+            description="UIkit wikipedia-w icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-yc"
+            value="&#60;i class=&quot;uk-icon-yc&quot;&#62;&#60;/i&#62;"
+            description="UIkit yc icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-y-combinator"
+            value="&#60;i class=&quot;uk-icon-y-combinator&quot;&#62;&#60;/i&#62;"
+            description="UIkit y-combinator icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-yc-square"
+            value="&#60;i class=&quot;uk-icon-yc-square&quot;&#62;&#60;/i&#62;"
+            description="UIkit yc-square icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
+    <template name="uk-icon-y-combinator-square"
+            value="&#60;i class=&quot;uk-icon-y-combinator-square&quot;&#62;&#60;/i&#62;"
+            description="UIkit y-combinator-square icon" toReformat="false">
+
+        <context>
+            <option name="HTML_TEXT" value="true"/>
+            <option name="HTML" value="true"/>
+            <option name="PHP" value="true"/>
+            <option name="GSP" value="true"/>
+            <option name="JSP" value="true"/>
+        </context>
+    </template>
 </templateSet>

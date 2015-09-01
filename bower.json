@@ -18,6 +18,6 @@
     "tests"
   ],
   "dependencies": {
-    "uikit": "~2.21.0"
+    "uikit": "^2.21.0"
   }
 }
