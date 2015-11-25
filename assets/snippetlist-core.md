@@ -2,6 +2,19 @@
 
 Name | Description
 -----|-----
+uk-accordion | UIkit uk-accordion component
+uk-dotnav | UIkit uk-dotnav component
+uk-form-file | UIkit uk-form-file component
+uk-form-password | UIkit uk-form-password component
+uk-form-select | UIkit uk-form-select component
+uk-nestable | UIkit uk-nestable component
+uk-progress | UIkit uk-progress component
+uk-search | UIkit uk-search component
+uk-slidenav | UIkit uk-slidenav component
+uk-slidenav-position | UIkit uk-slidenav-position component
+uk-slider | UIkit uk-slider component
+uk-slideshow | UIkit uk-slideshow component
+uk-sortable | UIkit uk-sortable component
 uk-alert | UIkit uk-alert component
 uk-article | UIkit uk-article component
 uk-breadcrumb | UIkit uk-breadcrumb component
@@ -22,18 +35,5 @@ uk-subnav | UIkit uk-subnav component
 uk-tab | UIkit uk-tab component
 uk-thumbnail | UIkit uk-thumbnail component
 uk-thumbnav | UIkit uk-thumbnav component
-uk-accordion | UIkit uk-accordion component
-uk-dotnav | UIkit uk-dotnav component
-uk-form-file | UIkit uk-form-file component
-uk-form-password | UIkit uk-form-password component
-uk-form-select | UIkit uk-form-select component
-uk-nestable | UIkit uk-nestable component
-uk-progress | UIkit uk-progress component
-uk-search | UIkit uk-search component
-uk-slidenav | UIkit uk-slidenav component
-uk-slidenav-position | UIkit uk-slidenav-position component
-uk-slider | UIkit uk-slider component
-uk-slideshow | UIkit uk-slideshow component
-uk-sortable | UIkit uk-sortable component
 
 [<<< Back to README](https://github.com/Bixie/intellij-uikit#list-of-templates)
